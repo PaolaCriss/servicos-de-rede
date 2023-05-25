@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações de serviço de rede</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>Serviços de rede:</h1>
+            <li><a href="#modeloosi">Modelo OSI</a></li>
+            <li><a href="#modelotcpip">Modelo TCP/IP</a></li>
+            <li><a href="#udp">UDP</a></li>
+            <li><a href="#dns">DNS</a></li>
+            <li><a href="#dhcp">DHCP</a></li>
+            <li><a href="#ftp">FTP</a></li>
+            <li><a href="#httpes">HTTP/HTTPS</a></li>
+            <li><a href="#webserver">Webserver</a></li>
+        </div>
+    </center>
+
+    <p>
+    </p>
+
+    <center>
+        <div id="modeloosi">
+            <h2>Modelo OSI</h2>
+            <p>É um padrão para os protocolos de rede, ou seja, são regras de comunicação usadas para conectar dois ou
+                mais computadores. Para a conexão ocorrer são necessárias setes camadas:
+                <li>1. Física (Physical)</li>
+                <li>2. Dados (Data Link)</li>
+                <li>3. Rede (Network)</li>
+                <li>4. Transporte (Transport)</li>
+                <li>5. Sessão (Session)</li>
+                <li>6. Apresentação (Presentation)</li>
+                <li>7. Aplicação (Application)</li>
+            <p>
+            </p>
+            Por meio desse sistema, semelhante ao envio de uma encomenda pelos correios, é possível enviar
+            requisições para um servidos por meio de várias etapas.
+            </p>
+            <center><img src="img/modelo osi.png"></center>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center>
+        <div id="modelotcpip">
+            <h2>Modelo TCP/IP</h2>
+            <p>Qualquer interação pode ser entre dois sistemas de computador ou pode envolver centenas deles, assim o
+                Modelo TCP/IP define de que maneira os computadores transferem dados de um dispositivo para outro. Mas,
+                da mesma forma que uma carta ou um pacote só pode passar de mão em mão, cada transação ocorre entre
+                apenas dois computadores por vez. Para que isso aconteça, os dois computadores precisam saber, com
+                antecedência, como eles devem se comunicar.
+            </p>
+            <center><img src="img/protocolo TCP.IP.png"></center>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center>
+        <div id="udp">
+            <h2>UDP</h2>
+            <p>Com o objetivo de enviar pacotes para um determinado endereço IP, seja na internet ou na rede local, o
+                protocolo UDP (User Datagram Protocol) tem uma característica essencial: a falta de confiabilidade.</p>
+            <p>Isso significa que, através da utilização desse protocolo, pode-se enviar datagramas de uma máquina à
+                outra, mas sem garantia de que os dados enviados chegarão intactos e na ordem correta.
+            </p>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center>
+        <div id="dns">
+            <h2>DNS</h2>
+            <p>Os servidores DNS(Domain Name System ou Sistema de Nomes de Domínios) localizam e traduzem os números IP
+                (Internet Protocol) para os endereços URL, tornando mais familiar ao pesquisarmos sites que digitamos
+                nos navegadores.</p>
+            <center><img src="img/dns.png"></center>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center>
+        <div id="dhcp">
+            <h2>DHCP</h2>
+            <p>Na maioria das vezes em que PC ou notebook faz uma solicitação de conexão com a rede, é o protocolo DHCP
+                que é responsável por atribuir a ele um número IP e demais parâmetros necessários.</p>
+            <p>Ao se conectar em uma rede, o protocolo fornece automaticamente endereço IP, máscara de sub-rede, Gateway
+                Padrão, endereço IP de um ou mais servidores DNS/WINS e sufixos de pesquisa do DNS, para que o
+                dispositivo do usuário possa utilizar a rede e obter acesso aos recursos disponibilizados nela e acesso
+                à internet, se houver.</p>
+            <center><img src="img/dhcp.jpg"></center>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center>
+        <div id="ftp">
+            <h2>FTP</h2>
+            <p>O FTP (File Transfer Protocol) ou Protocolo de Transferência de Arquivos, em português, é um protocolo
+                usado para transferir arquivos por uma rede de computadores, desde uma local à internet. Basicamente,
+                permite a troca de arquivos entre dois computadores de modo direto, em que um ganha acesso às pastas do
+                outro.</p>
+            <p>O FTP usa um servidor como o computador responsável por hospedar os arquivos. O cliente é o usuário que
+                fará o acesso. A conexão é sempre autenticada com nome de usuário e senha, enquanto o servidor é
+                geralmente acessado por um endereço de IP.</p>
+
+            <p> Qualquer computador pode ser usado como um servidor FTP, embora hoje em dia seja mais usado por
+                administradores de sites, que usam a conexão e um sistema de hospedagem para manter os dados de suas
+                páginas.</p>
+            <center><img src="img/ftp.png"></center>
+        </div>
+    </center>
+
+    <p></p>
+
+    <center id="httpes">
+        <div>
+            <h2>HTTP/HTTPS</h2>
+            <p>HTTP e HTTPS são protocolos de segurança na Internet bastante evidentes quando acessamos sites de banco
+                ou lojas virtuais para realizar transações financeiras. Geralmente, eles aparecem por meio de avisos
+                para verificar o cadeado de segurança ou observar a sigla HTTPS na barra de endereços do navegador.</p>
+            <p><b> HTTP</b> define como são requisitadas as páginas da web, como são enviados os dados que o usuário
+                insere em formulários e como o servidor envia mensagens de erro para o navegador do usuário.</p>
+            <p><b>HTTPS </b>(Hyper Text Transfer Protocol Secure) insere uma camada de proteção na transmissão de dados
+                entre seu computador e o servidor. Em sites com endereço HTTPS, a comunicação é criptografada,
+                aumentando significativamente a segurança dos dados. É como se cliente e servidor conversassem uma
+                língua que só ambos entendessem, dificultando a interceptação das informações.</p>
+            <center><img src="img/http e https.png"></center>
+        </div>
+    </center>
+
+        <p></p>
+
+        <center>
+            <div id="webserver">
+                <h2>Webserver</h2>
+                <p>Os Servidores Web são basicamente programas de computador simples que entregam a página web solicitada sob demanda do cliente da Web. As máquinas nas quais este programa é executado são geralmente chamadas de servidores, com os nomes servidor da web e servidor sendo usados quase que alternadamente.</p>
+                <p>Geralmente, quando você pensa em Servidor Web, muitas pessoas pensam em computadores muito poderosos, o que é às vezes correto, pois alguns computadores muito poderosos também são chamados de servidores web.  Mas esses computadores são construídos com o único propósito de hospedar muitos sites (falamos de hospedagem compartilhada).</p>
+                <center><img src="img/servidor-web.png"></center>
+            </div>
+        </center>
+
+        <p></p>
+        
+</body>
+
+</html>

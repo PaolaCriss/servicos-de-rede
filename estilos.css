@@ -1,0 +1,39 @@
+body {
+    background-color: darkred;
+}
+
+div {
+    background-color: rgb(187, 93, 93);
+    position: static;
+    text-align: justify;
+    font-size: larger;
+    font-family: 'Segoe UI';
+    border: 15px;
+    padding: 30px;
+    width: 50%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+img {
+    width: 55%;
+    margin: auto;
+    position: static;
+}
+
+a:hover {
+    color: rgb(19, 10, 10);
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgba(211, 158, 173, 0.956);
+    background-color: transparent;
+    text-decoration: underline;
+}
+a{
+    color:rgb(125, 24, 9);
+}
